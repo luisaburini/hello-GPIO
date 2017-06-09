@@ -1,7 +1,7 @@
 #ifndef __PATHMACROS_H__
 #define __PATHMACROS_H__
  
-// LED via SODIMM pin 55 (Linux GPIO 14)
+// LED via SODIMM pin 35  (Linux GPIO 14)
 #ifdef __ARM_EABI__    // path when executing on ARM target
     #define PATH_LED_VALUE        "/sys/class/gpio/gpio14/value"
     #define PATH_LED_DIRECTION    "/sys/class/gpio/gpio14/direction"
